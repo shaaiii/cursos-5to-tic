@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/curso-desarrollo-web/static/js/runtime~main.258706b7.js"
   },
   {
-    "revision": "db5d23fdceb0fe8e3137",
-    "url": "/curso-desarrollo-web/static/js/main.3c8e8dab.chunk.js"
+    "revision": "9c537258ed8d2047999d",
+    "url": "/curso-desarrollo-web/static/js/main.1823fcb4.chunk.js"
   },
   {
     "revision": "c1ad1b754b4d7fc8b0dd",
     "url": "/curso-desarrollo-web/static/js/2.b13e0531.chunk.js"
   },
   {
-    "revision": "db5d23fdceb0fe8e3137",
+    "revision": "9c537258ed8d2047999d",
     "url": "/curso-desarrollo-web/static/css/main.678e36fa.chunk.css"
   },
   {
-    "revision": "dd9cac42904d7bfb1d56dccb1af40a21",
+    "revision": "f489b5bc65a277b80ca9692934a94b83",
     "url": "/curso-desarrollo-web/index.html"
   }
 ];
