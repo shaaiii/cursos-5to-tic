@@ -1,14 +1,14 @@
 {
-  "main.css": "/curso-desarrollo-web/static/css/main.678e36fa.chunk.css",
-  "main.js": "/curso-desarrollo-web/static/js/main.1823fcb4.chunk.js",
-  "main.js.map": "/curso-desarrollo-web/static/js/main.1823fcb4.chunk.js.map",
+  "main.css": "/curso-desarrollo-web/static/css/main.7b797635.chunk.css",
+  "main.js": "/curso-desarrollo-web/static/js/main.b9ffc37a.chunk.js",
+  "main.js.map": "/curso-desarrollo-web/static/js/main.b9ffc37a.chunk.js.map",
   "runtime~main.js": "/curso-desarrollo-web/static/js/runtime~main.258706b7.js",
   "runtime~main.js.map": "/curso-desarrollo-web/static/js/runtime~main.258706b7.js.map",
-  "static/js/2.b13e0531.chunk.js": "/curso-desarrollo-web/static/js/2.b13e0531.chunk.js",
-  "static/js/2.b13e0531.chunk.js.map": "/curso-desarrollo-web/static/js/2.b13e0531.chunk.js.map",
+  "static/js/2.c707d953.chunk.js": "/curso-desarrollo-web/static/js/2.c707d953.chunk.js",
+  "static/js/2.c707d953.chunk.js.map": "/curso-desarrollo-web/static/js/2.c707d953.chunk.js.map",
   "index.html": "/curso-desarrollo-web/index.html",
-  "precache-manifest.9b0b6a95a81bae6a60912772a9af1227.js": "/curso-desarrollo-web/precache-manifest.9b0b6a95a81bae6a60912772a9af1227.js",
+  "precache-manifest.bc809e80c64459d804e18259b8e3085c.js": "/curso-desarrollo-web/precache-manifest.bc809e80c64459d804e18259b8e3085c.js",
   "service-worker.js": "/curso-desarrollo-web/service-worker.js",
-  "static/css/main.678e36fa.chunk.css.map": "/curso-desarrollo-web/static/css/main.678e36fa.chunk.css.map",
+  "static/css/main.7b797635.chunk.css.map": "/curso-desarrollo-web/static/css/main.7b797635.chunk.css.map",
   "static/media/logo.svg": "/curso-desarrollo-web/static/media/logo.5d5d9eef.svg"
 }
