@@ -9,9 +9,11 @@ import Home from './components/Home'
 class App extends Component {
   render() {
 
+    console.log(process);
+
     return (
       <div className="App app-container">
-        <Router>
+        <Router basename='/curso-desarrollo-web'>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/clase2' component={Clase2}/>
