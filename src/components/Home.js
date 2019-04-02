@@ -13,23 +13,27 @@ class Home extends React.Component {
       <header className="app-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Bienvenidos/as al curso de Desarrollo Web
+          ¡Bienvenidas y Bienvenidos a Ánima!
         </p>
-        <ul>
-          <li className='custom-nav-item-sytle'>
-            <NavLink activeClassName='active' to='/clase2'>
-              Clase2
-            </NavLink>
-          </li>
-        </ul>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <p>Seleccione la materia</p>
+
+        <div className='container'>
+
+          <div className='row justify-content-center'>
+            <div className='col-12 col-md-3'>
+              <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/ss-oo'>
+                Sistemas Operativos
+              </NavLink>
+            </div>
+            <div className='col-12 col-md-3'>
+              <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/clase2'>
+                Desarrollo Web
+              </NavLink>
+            </div>
+          </div>
+
+        </div>
       </header>
     )
   }

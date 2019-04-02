@@ -17,13 +17,27 @@ ul {
 }
 
 .custom-nav-item-sytle {
+
+  color: white;
   list-style-type: none;
   border: 1px solid white;
-  padding: 2px 5px;
+  padding: 2px 10px;
   border-radius: 5px;
   background-color: #7d879b;
+  padding-bottom: 4px;
+  margin-bottom: 2em;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+
   a {
     color: white;
     text-decoration: none;
   }
+}
+
+.img-back-link {
+  color: white;
 }
