@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/curso-desarrollo-web/precache-manifest.a7f154648c175402d3a9a63cac0359a3.js"
+  "/cursos-5to-tic/precache-manifest.ed12b4c1f7375e360882ad906e52d9a7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/curso-desarrollo-web/index.html", {
+workbox.routing.registerNavigationRoute("/cursos-5to-tic/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
