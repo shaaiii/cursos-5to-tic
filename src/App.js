@@ -5,8 +5,7 @@ import './styles.scss'
 
 import Clase2 from './components/Clase2';
 import Home from './components/Home';
-import SistemasOperativos from './components/sistemas-operativos/SistemasOperativos';
-import SsOoClase4 from './components/sistemas-operativos/Clase4';
+import { SistemasOperativos, Clase3Repaso, SsOoClase4 } from './components/sistemas-operativos/SistemasOperativos';
 
 class App extends Component {
   render() {
@@ -15,12 +14,13 @@ class App extends Component {
 
     return (
       <div className="App app-container">
-        <Router basename='/curso-desarrollo-web'>
+        <Router basename='/cursos-5to-tic'>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/clase2' component={Clase2}/>
             <Route exact path='/ss-oo' component={SistemasOperativos} />
-            <Route path='/ss-oo/clase-4' component={SsOoClase4} />
+            <Route path='/ss-oo/clase-3-repaso' component={Clase3Repaso} />
+            <Route path='/ss-oo/clase4' component={SsOoClase4} />
           </Switch>
         </Router>
       </div>

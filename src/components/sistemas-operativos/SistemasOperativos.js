@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import Clase3Repaso from './Clase3Repaso';
+import SsOoClase4 from './Clase4';
+
 import './SistemasOperativos.scss';
 
 class SistemasOperativos extends React.Component {
@@ -11,13 +14,18 @@ class SistemasOperativos extends React.Component {
 
       <h3>Elija la clase que quiere consultar</h3>
 
-      <div>
-        <NavLink to='/ss-oo/clase-4'>Clase 4</NavLink>
-      </div>
+      <ul>
+        <li><NavLink to='/ss-oo/clase-3-repaso'>Clase 3 - Repaso</NavLink></li>
+        <li><NavLink to='/ss-oo/clase-4'>Clase 4 - Jueves 4 de abril de 2019</NavLink></li>
+      </ul>
 
     </div>
     )
   }
 }
 
-export default SistemasOperativos;
+export {
+  SistemasOperativos,
+  Clase3Repaso,
+  SsOoClase4,
+};

@@ -1,4 +1,10 @@
 .ss-oo-container {
   color: white;
   height: 100vh;
+  ul {
+    list-style-type: none;
+    li {
+      margin-left: -2.5em;
+    }
+  }
 }
