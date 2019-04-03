@@ -10,7 +10,7 @@ class Clase3Repaso extends React.Component {
     return (
     <div className='ss-oo-clase-3-container'>
       <div style={{textAlign: 'left'}}>
-        <NavLink className='img-back-link' to='/ss-oo'><i class="fas fa-arrow-left"></i></NavLink>
+        <NavLink className='img-back-link' to='/ss-oo'><i className="fas fa-arrow-left"></i></NavLink>
       </div>
       <h1>Repaso de Clase 3 - Jueves 28 de marzo de 2019</h1>
       <div>

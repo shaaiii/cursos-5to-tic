@@ -1,0 +1,18 @@
+@import '../../styles.scss';
+
+.shell-container {
+  background-color: white;
+  color: $darkColor;
+  height: 100vh;
+  i {
+    margin: 1em 0 0 1.5em;
+    font-size: 1.5em;
+    color: $darkColor;
+  }
+  .italic {
+    font-style: italic;
+  }
+  p, h2 {
+    text-align: left;
+  }
+}

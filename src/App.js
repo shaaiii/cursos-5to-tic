@@ -5,12 +5,10 @@ import './styles.scss'
 
 import Clase2 from './components/Clase2';
 import Home from './components/Home';
-import { SistemasOperativos, Clase3Repaso, SsOoClase4 } from './components/sistemas-operativos/SistemasOperativos';
+import { SistemasOperativos, Clase3Repaso, ElShell, BasicCommands } from './components/sistemas-operativos/SistemasOperativos';
 
 class App extends Component {
   render() {
-
-    console.log(process);
 
     return (
       <div className="App app-container">
@@ -20,7 +18,9 @@ class App extends Component {
             <Route path='/clase2' component={Clase2}/>
             <Route exact path='/ss-oo' component={SistemasOperativos} />
             <Route path='/ss-oo/clase-3-repaso' component={Clase3Repaso} />
-            <Route path='/ss-oo/clase4' component={SsOoClase4} />
+            <Route path='/ss-oo/el-shell' component={ElShell} />
+            <Route path='/ss-oo/basic-commands' component={BasicCommands} />
+            <Route render={() => <p>Not found</p> } />
           </Switch>
         </Router>
       </div>

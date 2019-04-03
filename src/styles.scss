@@ -1,7 +1,9 @@
-$backgroundColor:#282c34;
+$darkColor:#282c34;
+$lightColor: #FBFCFC;
 
 .app-container {
-  background-color: $backgroundColor;
+  background-color: $darkColor;
+  color: $lightColor;
 }
 
 .App {
