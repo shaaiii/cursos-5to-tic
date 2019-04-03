@@ -27,7 +27,7 @@ class Home extends React.Component {
               </NavLink>
             </div>
             <div className='col-12 col-md-3'>
-              <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/clase2'>
+              <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/des-web'>
                 Desarrollo Web
               </NavLink>
             </div>

@@ -1,0 +1,42 @@
+.git-container {
+  background-color: #f6f8fa;
+  height: 100vh;
+  a {
+    color: #fff;
+  }
+
+  .git-header {
+    background-color: #24292e;
+    font-weight: bold;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    i {
+      font-size: 2em;
+    }
+    .logo-container {
+      text-align: left;
+      padding-left: 2em;
+      button {
+        background-color: inherit;
+        border: 0px;
+        color: inherit;
+        margin-right: 1em;
+      }
+    }
+    .menu-container {
+      a {
+        color: #fff;
+        text-decoration: none;
+        padding: 8px;
+
+        &:hover {
+          color: hsla(0,0%,100%,.7)
+        }
+      }
+    }
+  }
+  .git-body {
+    color: #24292e;
+    font-weight: bold;
+  }
+}

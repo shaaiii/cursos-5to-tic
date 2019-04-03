@@ -15,7 +15,7 @@ class Clase3Repaso extends React.Component {
       <h1>Repaso de Clase 3 - Jueves 28 de marzo de 2019</h1>
       <div>
         <h2>Al File System de Unix se le llama "Estructura en forma de Árbol".</h2>
-        <img src={treeLogo} width='500px' />
+        <img src={treeLogo} alt='Figura de árbol' width='500px' />
       </div>
       <div>
         <h2>Vimos también que hay 2 tipos de rutas.</h2>

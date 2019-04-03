@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 class CodeContainer extends React.Component {
 
   static propTypes = {
-    command: PropTypes.string.isRequired
+    command: PropTypes.string.isRequired,
+    isCommandUnbold: PropTypes.bool
   }
 
   render() {
@@ -17,7 +18,8 @@ class CodeContainer extends React.Component {
       fontSize: '15px',
       width: '80%', 
       display: 'block',
-      textAlign: 'left'
+      textAlign: 'left',
+      fontWeight: 'normal'
     }
 
     const stylesUser = {

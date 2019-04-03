@@ -1,0 +1,86 @@
+.git-versions-container {
+
+  background-color: #f6f8fa;
+
+  p {
+    padding-top: 1em;
+    font-weight: normal;
+  }
+  h2 {
+    margin-top: 2em;
+    text-shadow: 1px 1px 3px #24292e;
+  }
+  h4 {
+    color: #28B463;
+    font-weight: bold;
+  }
+  .git-command-section-odd {
+    background-color: #F2F3F4;
+    padding: 1em 0;
+    margin: 0.3em 0;
+  }
+  .git-command-section-even {
+    padding: 1em 0;
+    margin: 0.3em 0;
+  }
+}
+
+.model-container{
+  h2 {
+    margin: 3em 0 1em 0;
+  }
+}
+
+.home-container {
+  section {
+    height: 100vh;
+  }
+  p {
+    font-weight: normal;
+  }
+  .header-container {
+
+    height: calc(100vh - 68px);
+    padding-top: 5em;
+    img {
+      margin-top: 1em;
+      width: 400px;
+    }
+  }
+  #que-es-git {
+    img {
+      padding-top: 3em;
+      width: 300px;
+    }
+    p {
+      text-align: left;
+      font-size: 1.5em;
+    }
+    #linus-torvalds-img {
+      padding-top: 0;
+      margin-top: 1em;
+      border-radius: 15px;
+    }
+  }
+  #que-es-github {
+    background-color: #f6f8fa;
+    img {
+      padding-top: 1em;
+      width: 300px;
+    }
+    #logo-github {
+      padding-top: calc((100vh/2) - 75px);
+    }
+    .git-description {
+      font-size: 2em;
+      margin-top: 5em;
+    }
+    .container {
+      margin-bottom: 4em;
+    }
+    a {
+      color: #24292e;
+      text-decoration: none;
+    }
+  }
+}
