@@ -4,13 +4,22 @@ import { NavLink } from 'react-router-dom';
 import Clase3Repaso from './Clase3Repaso';
 import ElShell from './ElShell';
 import BasicCommands from './BasicCommands';
+import BackButton from '../BackButton';
 
 import './SistemasOperativos.scss';
 
 class SistemasOperativos extends React.Component {
+
+  toBack = () => {
+    this.props.history.push('/');
+  }
+
   render() {
     return (
     <div className='ss-oo-container'>
+      <div style={{textAlign: 'left'}}>
+        <BackButton to={this.toBack} />
+      </div>
       <h1>Bienvenidas y Bienvenidos al curso de Sistemas Operativos 2</h1>
 
       <h3>Elija la clase que quiere consultar</h3>

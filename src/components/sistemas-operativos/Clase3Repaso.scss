@@ -1,6 +1,9 @@
+@import '../../styles.scss';
+
 .ss-oo-clase-3-container {
   text-align: center;
   color: white;
+  background-color: $darkColor;
   padding-bottom: 4em;
   ul {
     list-style-type: none;
