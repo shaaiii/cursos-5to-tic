@@ -37,7 +37,7 @@ class Git extends React.Component {
               <button onClick={this.toBack}>
                 <i style={{fontSize: '1.5em'}} className="fas fa-arrow-left"></i>
               </button>
-              <a href='https://github.com/' target='_blank'>
+              <a href='https://github.com/' target='_blank' rel='noopener noreferrer'>
                 <i className="fab fa-github"></i>
               </a>
             </div>

@@ -5,7 +5,7 @@ import './styles.scss'
 
 import { DesarrolloWeb, Clase2 as DesWebClase2, Git } from './components/desarrollo-web/DesarrolloWeb';
 import Home from './components/Home';
-import { SistemasOperativos, Clase3Repaso, ElShell, BasicCommands } from './components/sistemas-operativos/SistemasOperativos';
+import { SistemasOperativos, Clase3Repaso, ElShell, BasicCommands, TrabajoBasicCommands } from './components/sistemas-operativos/SistemasOperativos';
 
 class App extends Component {
   render() {
@@ -21,7 +21,8 @@ class App extends Component {
             <Route exact path='/ss-oo' component={SistemasOperativos} />
             <Route path='/ss-oo/clase-3-repaso' component={Clase3Repaso} />
             <Route path='/ss-oo/el-shell' component={ElShell} />
-            <Route path='/ss-oo/basic-commands' component={BasicCommands} />
+            <Route exact path='/ss-oo/basic-commands' component={BasicCommands} />
+            <Route path='/ss-oo/basic-commands/task' component={TrabajoBasicCommands} />
             <Route render={() => <p>Not found</p> } />
           </Switch>
         </Router>

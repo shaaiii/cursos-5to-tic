@@ -5,6 +5,7 @@ import Clase3Repaso from './Clase3Repaso';
 import ElShell from './ElShell';
 import BasicCommands from './BasicCommands';
 import BackButton from '../BackButton';
+import TrabajoBasicCommands from './TrabajoBasicCommands';
 
 import './SistemasOperativos.scss';
 
@@ -29,6 +30,7 @@ class SistemasOperativos extends React.Component {
         <li><b>Clase 4 - Jueves 4 de abril de 2019</b> </li>
         <li><NavLink to='/ss-oo/el-shell'>El Shell</NavLink></li>
         <li><NavLink to='/ss-oo/basic-commands'>Los 7 comandos más usados</NavLink></li>
+        <li><NavLink to='/ss-oo/basic-commands/task'>Tarea los 7 Comandos</NavLink></li>
       </ul>
 
     </div>
@@ -41,4 +43,5 @@ export {
   Clase3Repaso,
   ElShell,
   BasicCommands,
+  TrabajoBasicCommands,
 };
