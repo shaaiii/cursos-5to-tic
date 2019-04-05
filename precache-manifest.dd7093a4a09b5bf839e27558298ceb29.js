@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/cursos-5to-tic/static/css/main.bd405f81.chunk.css"
   },
   {
-    "revision": "05b8ad2848e58b4abdb5fa6bc93b2834",
+    "revision": "7bd8974ee3e87abe880a1c79e2a00bbd",
     "url": "/cursos-5to-tic/index.html"
   }
 ];
