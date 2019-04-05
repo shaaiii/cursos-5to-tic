@@ -14,7 +14,7 @@ export default function TrabajoBasicCommands (props) {
   return (
     <div>
       <div style={{textAlign: 'left'}}>
-        <BackButton to={props.history.goBack} />
+        <BackButton to={goBackTo} />
       </div>
       <iframe 
         style={{marginTop: '2em'}}
