@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cursos-5to-tic/precache-manifest.0168aa0e3306965fdac84f91f196ac89.js"
+  "/cursos-5to-tic/precache-manifest.b2f198d97c4408600ec00a0b6a970b37.js"
 );
 
 workbox.clientsClaim();
