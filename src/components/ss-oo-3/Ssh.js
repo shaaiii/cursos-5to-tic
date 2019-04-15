@@ -7,7 +7,7 @@ export default function Ssh (props) {
     <div className='ssh-container'>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-10 col-xl-9 pt-5">
+          <div className="col-12 col-xl-9 pt-5">
 
             <h1>Configuraciones de Red de VM VirtualBox</h1>
 
@@ -19,7 +19,7 @@ export default function Ssh (props) {
 
             <h1>Adaptador puente</h1>
 
-            <p>Con Adaptador Puente, Oracle VM VirtualBox usa un driver de dispositivo en tu máquina host (Nuestra compu con Windows) que filtra los datos del adaptador de red físico. Por lo tanto este driver es llamado un driver de filtro de red. Esto habilita a Oracle VM VirtualBox a interceptar datos desde la red física e inyectar datos adentro de ella, creando efectivamente una nueva interface de red mediante software. Cuando la máquina guest (La Máquina Virtual con Debian) está usando este tipo de interfaz de software nueva, mira a la máquina host aunque es la máqina guest es en que está conectada físicamente a la inteface usando un cable de red. La máquina host puede mandar datos a la máquina guest a travez de esa interfaz y recibir datos de ella. Esto significa que vos podes configurar el ruteo y el puente entre la máquina guest y el resto de tu red. </p>
+            <p>Con Adaptador Puente, Oracle VM VirtualBox usa un driver de dispositivo en tu máquina host (Nuestra compu con Windows) que filtra los datos del adaptador de red físico. Por lo tanto este driver es llamado un driver de filtro de red. Esto habilita a Oracle VM VirtualBox a interceptar datos desde la red física e inyectar datos adentro de ella, creando efectivamente una nueva interface de red mediante software. Cuando la máquina guest (La Máquina Virtual con Debian) está usando este tipo de interfaz de software nueva, mira a la máquina host como si la máqina guest estuviera conectada físicamente a la inteface usando un cable de red. La máquina host puede mandar datos a la máquina guest a travez de esa interfaz y recibir datos de ella. Esto significa que vos podes configurar el ruteo y el puente (<i>bridging</i>) entre la máquina guest y el resto de tu red.</p>
             <p><i>With bridged networking, Oracle VM VirtualBox uses a device driver on your host system that filters data from your physical network adapter. This driver is therefore called a net filter driver. This enables Oracle VM VirtualBox to intercept data from the physical network and inject data into it, effectively creating a new network interface in software. When a guest is using such a new software interface, it looks to the host system as though the guest were physically connected to the interface using a network cable. The host can send data to the guest through that interface and receive data from it. This means that you can set up routing or bridging between the guest and the rest of your network.</i></p>
 
             <p>Para más información visitar <a href="https://www.virtualbox.org/manual/UserManual.html#network_bridged" target='_blank' rel='noopener noreferrer'>ESTA</a> página</p>

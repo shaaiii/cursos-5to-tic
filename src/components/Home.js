@@ -23,7 +23,7 @@ class Home extends React.Component {
           <div className='row justify-content-center'>
             <div className='col-12 col-md-3'>
               <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/ss-oo'>
-                Sistemas Operativos
+                Sistemas Operativos 2
               </NavLink>
             </div>
             <div className='col-12 col-md-3'>
@@ -31,6 +31,13 @@ class Home extends React.Component {
                 Desarrollo Web
               </NavLink>
             </div>
+
+            <div className='col-12 col-md-3'>
+              <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/ss-oo-3/ssh'>
+                Sistemas Operativos 3
+              </NavLink>
+            </div>
+
           </div>
 
         </div>
