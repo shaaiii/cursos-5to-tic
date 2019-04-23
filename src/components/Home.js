@@ -2,7 +2,8 @@ import React from 'react'
 
 import { NavLink } from 'react-router-dom'
 
-import logo from '../logo.svg'
+import logo from '../assets/logo_anima.svg'
+import logoCompleto from '../assets/logo_anima_completo.svg'
 
 import './home.scss'
 
@@ -11,7 +12,10 @@ class Home extends React.Component {
   render() {
     return (
       <header className="app-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+        <img id='logo-completo-anima' src={logoCompleto} alt='Logo Completo Anima'/>
+
+        <img src={logo} className="app-logo" alt="logo" />
         <p>
           ¡Bienvenidas y Bienvenidos a Ánima!
         </p>
