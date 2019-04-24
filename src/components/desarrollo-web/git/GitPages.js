@@ -4,10 +4,10 @@ import CodeContainer from '../../CodeContainer';
 
 import './GitPages.scss';
 
-function GitChanges(props) {
+function GitConfigRepository(props) {
   return (
-    <div className='git-versions-container'>
-      <h2>¿Cómo hago para subir mi primer versión?</h2>
+    <div className='git-commands-sections-container'>
+      <h2>¿Cómo hago para configurar el repositorio?</h2>
 
       <div className='git-command-section-odd'>
         <h4>1 - Iniciación de nuestro repositorio local con Git</h4>
@@ -27,23 +27,37 @@ function GitChanges(props) {
         </div>
       </div>
 
+    </div>
+  )
+}
+
+function GitChanges(props) {
+  return (
+    <div className='git-commands-sections-container'>
+      <h2>¿Cómo hago para subir mi primer commit?</h2>
+
       <div className='git-command-section-odd'>
-        <h4>3 - Agregar los archivos que tenemos</h4>
+        <h4>1 - Agregar los archivos que tenemos</h4>
         <div>
           <CodeContainer command='git add .' />
         </div>
         <p>Nota: Con el "." estamos diciendo que queremos agregar TODOS los archivos.</p>
+        <p>Podemos agregar algunos archivos en particular, por ejemplo si tenemos 4 archivos y queremos agregar uno llamado "index.html", entonces ejecutamos el siguiente comando:</p>
+
+        <div>
+          <CodeContainer command='git add index.html' />
+        </div>
       </div>
 
       <div className='git-command-section-even'>
-        <h4>4 - <i>Commitear</i> los cambios y agregarle un mensaje al commit.</h4>
+        <h4>2 - <i>Commitear</i> los cambios y agregarle un mensaje al commit.</h4>
         <div>
           <CodeContainer command="git commit -m '«Mensaje del commit»'" />
         </div>
       </div>
 
       <div className='git-command-section-odd'>
-        <h4>6 - Subir los cambios al repositorio <b>remoto</b>.</h4>
+        <h4>3 - Subir los cambios al repositorio <b>remoto</b>.</h4>
         <div>
           <CodeContainer command='git push origin master' />
         </div>
@@ -116,5 +130,6 @@ function GitHome(props) {
 export {
   GitChanges,
   GitModel, 
-  GitHome
+  GitHome,
+  GitConfigRepository
 }
