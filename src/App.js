@@ -19,7 +19,7 @@ class App extends Component {
 
     return (
       <div className="App app-container">
-        <Router basename='/cursos-5to-tic'>
+        <Router>
           <Switch>
             <Route exact path='/' component={Home} />
 

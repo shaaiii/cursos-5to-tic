@@ -30,7 +30,7 @@ class Git extends React.Component {
   render() {
     return (
     <div className='git-container'>
-      <Router basename='/cursos-5to-tic'>
+      <Router>
         <div className='container-fluid'>
           <div id='menu-bar' className='row git-header justify-content-start'>
             <div className='col-2 logo-container'>
