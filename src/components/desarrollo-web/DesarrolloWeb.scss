@@ -1,17 +1,46 @@
 .des-web-container {
+
   height: 100vh;
-  background-color: #117864;
+  position: relative;
+  z-index: 0;
+  color: #581845;
+  background-color: white;
+
   a {
     color: #154360;
   }
+
+  .content {
+    border-radius: 7px;
+    padding: 1em 0 2em 0;
+    margin: 1em 4em;
+    background-color: rgba(88, 24, 69, 0.4);
+
+    #logo-anima-completo {
+      margin-bottom: 1em;
+    }
+  }
+
   .list-topics {
     a {
       font-size: 2em;
-      color: #78281F;
-      
-      &:hover {
-        text-decoration: none;
-      }
+      color: #6E2C00;
+      display: block;
     }
   }
+}
+.background-img {
+
+  &::after {
+    content: '';
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background: url(https://img.freepik.com/free-vector/colorful-glass-pattern_1048-5491.jpg?size=338&ext=jpg);
+    width: 100%;
+    height: 100%;
+  }
+
 }

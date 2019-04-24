@@ -6,7 +6,7 @@ import './styles.scss'
 import Home from './components/Home';
 
 // Desarrollo Web
-import { DesarrolloWeb, Clase2 as DesWebClase2, Git } from './components/desarrollo-web/DesarrolloWeb';
+import { DesarrolloWeb, Clase2 as DesWebClase2, Git, BootstrapUtils } from './components/desarrollo-web/DesarrolloWeb';
 
 // Sistemas Operativos 2
 import { SistemasOperativos, Clase3Repaso, ElShell, BasicCommands, TrabajoBasicCommands } from './components/sistemas-operativos/SistemasOperativos';
@@ -27,6 +27,7 @@ class App extends Component {
             <Route exact path='/des-web' component={DesarrolloWeb} />
             <Route path='/des-web/clase2' component={DesWebClase2}/>
             <Route path='/des-web/git' component={Git} />
+            <Route path='/des-web/bootstrap-utils' component={BootstrapUtils} />
 
             {/* Sistemas Operativos 2 */}
             <Route exact path='/ss-oo' component={SistemasOperativos} />

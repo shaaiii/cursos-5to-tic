@@ -92,7 +92,7 @@ function GitHome(props) {
     </header>
     <section id='que-es-git'>
       <div>
-        <img src='https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png' alt='Logo Git' />
+        <a href='https://git-scm.com/' target='_blank'  rel='noopener noreferrer'><img src='https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png' alt='Logo Git' /></a>
       </div>
       <div className='container'>
         <div className='row'>
@@ -111,7 +111,7 @@ function GitHome(props) {
       <div className='container'>
         <div className='row'>
           <div className='col-12 col-md-4'>
-            <img id='logo-github' src='https://i2.wp.com/www.globalemancipation.ngo/wp-content/uploads/2017/09/github-logo.png?ssl=1' alt='Logo GitHub' />
+            <a href='https://github.com/' target='_blank'  rel='noopener noreferrer'><img id='logo-github' src='https://i2.wp.com/www.globalemancipation.ngo/wp-content/uploads/2017/09/github-logo.png?ssl=1' alt='Logo GitHub' /></a>
           </div>
           <div className='col-12 col-md-8 git-description'>
             <p>Github es una plataforma y un programa de software de desarrollo colaborativo para alojar proyectos y que utiliza el sistema de control de versiones <b>Git</b>.</p>

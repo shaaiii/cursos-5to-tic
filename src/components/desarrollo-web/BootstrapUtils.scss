@@ -1,0 +1,39 @@
+$textBootstrapColor:#7952b3;
+
+.bootstrap-utils-container {
+  height: 100%;
+  background-color: #fff;
+  color: $textBootstrapColor;
+
+  header {
+    background-color: #563d7c;
+    text-align: left;
+    #bootstrap-icon {
+      margin-left: 1em;
+      color: white;
+      font-size: 40px;
+    }
+  }
+
+  .container {
+    .row {
+      height: calc(100vh - 60px);
+
+      .row {
+        height: auto;
+
+        .btn-outline-custom {
+          color: $textBootstrapColor;
+          border-color: $textBootstrapColor;
+          cursor: pointer;
+
+          &:hover {
+            color: #fff;
+            background-color: $textBootstrapColor;
+            border-color: $textBootstrapColor;
+          }
+        }
+      }
+    }
+  }
+}
