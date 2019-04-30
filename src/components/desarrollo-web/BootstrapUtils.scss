@@ -29,15 +29,22 @@ $textBootstrapColor:#7952b3;
       .row {
         height: auto;
 
+        p {
+          height: 90px;
+          margin-bottom: 0;
+        }
         .btn-outline-custom {
-          color: $textBootstrapColor;
+
           border-color: $textBootstrapColor;
+          color: $textBootstrapColor;
           cursor: pointer;
 
           &:hover {
-            color: #fff;
+
             background-color: $textBootstrapColor;
             border-color: $textBootstrapColor;
+            color: #fff;
+            text-decoration: none;
           }
         }
       }

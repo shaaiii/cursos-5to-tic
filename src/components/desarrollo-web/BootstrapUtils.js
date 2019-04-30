@@ -30,90 +30,74 @@ class BootstrapUtils extends React.Component {
                 <h1>Utilidades de Bootstrap</h1>
               </div>
 
-              <div className='col-12 col-lg-8'>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
+              <div className='col-12 col-lg-6'>
+                <div className='row align-items-center justify-content-center mb-2'>
+                  <p className='d-table col-4'>
                     <a 
                       href='https://getbootstrap.com/docs/4.3/utilities/borders/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Bordes</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Bordes</a>
+                  </p>
+                  <p className='d-table col-4'>
                     <a 
                       href='https://getbootstrap.com/docs/4.3/utilities/close-icon/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Close Icon</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Close Icon</a>
+                  </p>
+                  <p className='d-table col-4'>
                     <a 
                       href='https://getbootstrap.com/docs/4.3/utilities/colors/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Colores</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
-                    <a 
-                      href='https://getbootstrap.com/docs/4.3/utilities/display/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Propiedad de CSS Display</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
-                    <a 
-                      href='https://getbootstrap.com/docs/4.3/utilities/flex/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Flex</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
-                    <a 
-                      href='https://getbootstrap.com/docs/4.3/utilities/overflow/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Propiedad de CSS Overflow</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
-                    <a 
-                      href='https://getbootstrap.com/docs/4.3/utilities/position/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Propiedad de CSS Postiion</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
-                    <a 
-                      href='https://getbootstrap.com/docs/4.3/utilities/shadows/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Propiedad de CSS box-shadow</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
-                    <a 
-                      href='https://getbootstrap.com/docs/4.3/utilities/sizing/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Ancho y Alto (Width & Height)</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
-                    <a 
-                      href='https://getbootstrap.com/docs/4.3/utilities/spacing/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Spacing (Padding & Margin)</a>
-                  </div>
-                </div>
-                <div className='row align-items-center justify-content-center'>
-                  <div className='col-8'>
-                    <a 
-                      href='https://getbootstrap.com/docs/4.3/utilities/text/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Texto</a>
-                  </div>
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Colores</a>
+                  </p>
                 </div>
                 <div className='row align-items-center justify-content-center mb-2'>
-                  <div className='col-8'>
+                  <p className='d-table col-4'>
+                    <a 
+                      href='https://getbootstrap.com/docs/4.3/utilities/display/' 
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Propiedad de CSS Display</a>
+                  </p>
+                  <p className='d-table col-4'>
+                    <a 
+                      href='https://getbootstrap.com/docs/4.3/utilities/flex/' 
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Flex</a>
+                  </p>
+                  <p className='d-table col-4'>
+                    <a 
+                      href='https://getbootstrap.com/docs/4.3/utilities/overflow/' 
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Propiedad de CSS Overflow</a>
+                  </p>
+                </div>
+                <div className='row align-items-center justify-content-center mb-2'>
+                  <p className='d-table col-4'>
+                    <a 
+                      href='https://getbootstrap.com/docs/4.3/utilities/position/' 
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Propiedad de CSS Postiion</a>
+                  </p>
+                  <p className='d-table col-4'>
+                    <a 
+                      href='https://getbootstrap.com/docs/4.3/utilities/shadows/' 
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Propiedad de CSS box-shadow</a>
+                  </p>
+                  <p className='d-table col-4'>
+                    <a 
+                      href='https://getbootstrap.com/docs/4.3/utilities/sizing/' 
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Ancho y Alto (Width & Height)</a>
+                  </p>
+                </div>
+                <div className='row align-items-center justify-content-center'>
+                  <p className='d-table col-4'>
+                    <a 
+                      href='https://getbootstrap.com/docs/4.3/utilities/spacing/' 
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Spacing (Padding & Margin)</a>
+                  </p>
+                  <p className='d-table col-4'>
+                    <a 
+                      href='https://getbootstrap.com/docs/4.3/utilities/text/' 
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Texto</a>
+                  </p>
+                  <p className='d-table col-4'>
                     <a 
                       href='https://getbootstrap.com/docs/4.3/utilities/vertical-align/' 
-                      target='_blank' rel='noopener noreferrer' className='btn btn-outline-custom mt-2'>Vertical Alignment</a>
-                  </div>
+                      target='_blank' rel='noopener noreferrer' className='d-table-cell btn btn-outline-custom'>Vertical Alignment</a>
+                  </p>
                 </div>
               </div>
             </div>
