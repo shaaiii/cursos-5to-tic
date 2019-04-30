@@ -1,5 +1,9 @@
 $textBootstrapColor:#7952b3;
 
+@mixin white-color {
+  color: white;
+}
+
 .bootstrap-utils-container {
   height: 100%;
   background-color: #fff;
@@ -9,9 +13,12 @@ $textBootstrapColor:#7952b3;
     background-color: #563d7c;
     text-align: left;
     #bootstrap-icon {
+      @include white-color;
       margin-left: 1em;
-      color: white;
       font-size: 40px;
+    }
+    i {
+      @include white-color;
     }
   }
 

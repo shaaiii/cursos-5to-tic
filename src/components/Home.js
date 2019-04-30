@@ -24,19 +24,19 @@ class Home extends React.Component {
 
         <div className='container'>
 
-          <div className='row justify-content-center'>
-            <div className='col-12 col-md-3'>
+          <div className='row justify-content-center mb-md-3 mb-lg-0'>
+            <div className='col-12 col-md-4 col-xl-3'>
               <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/ss-oo'>
                 Sistemas Operativos 2
               </NavLink>
             </div>
-            <div className='col-12 col-md-3'>
+            <div className='col-12 col-md-4 col-xl-3 my-2 my-md-0'>
               <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/des-web'>
                 Desarrollo Web
               </NavLink>
             </div>
 
-            <div className='col-12 col-md-3'>
+            <div className='col-12 col-md-4 col-xl-3 mb-3 mb-md-0'>
               <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/ss-oo-3/ssh'>
                 Sistemas Operativos 3
               </NavLink>
