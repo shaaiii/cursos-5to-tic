@@ -31,6 +31,28 @@ function GitConfigRepository(props) {
   )
 }
 
+function GitFetchChanges(props) {
+  return (
+    <div className='git-commands-sections-container'>
+      <h2>¿Cómo hago para traerme los cambios?</h2>
+
+      <div className='git-command-section-odd'>
+        <h4>1 - Traer los cambios al repositorio local.</h4>
+        <div>
+          <CodeContainer command='git fetch origin' />
+        </div>
+      </div>
+
+      <div className='git-command-section-even'>
+        <h4>2 - Unir los cambios al repositorio local.</h4>
+        <div>
+          <CodeContainer command="git merge origin/master" />
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function GitChanges(props) {
   return (
     <div className='git-commands-sections-container'>
@@ -129,6 +151,7 @@ function GitHome(props) {
 
 export {
   GitChanges,
+  GitFetchChanges,
   GitModel, 
   GitHome,
   GitConfigRepository

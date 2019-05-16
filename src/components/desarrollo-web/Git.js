@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import { GitChanges, GitModel, GitHome, GitConfigRepository } from './git/GitPages';
+import { GitChanges, GitModel, GitHome, GitConfigRepository, GitFetchChanges } from './git/GitPages';
 
 import './Git.scss';
 
@@ -23,6 +23,9 @@ class Git extends React.Component {
     }, {
       path: '/des-web/git/config-repository',
       main: () => <GitConfigRepository />,
+    }, {
+      path: '/des-web/git/fetch-changes',
+      main: () => <GitFetchChanges />,
     }
   ];
 
@@ -49,6 +52,7 @@ class Git extends React.Component {
               <Link to='/des-web/git/'>Git y Github</Link>
               <Link to='/des-web/git/config-repository'>Configurar Respositorio</Link>
               <Link to='/des-web/git/make-changes'>Commits</Link>
+              <Link to='/des-web/git/fetch-changes'>Traer Cambios</Link>
             </div>
           </div>
         </div>
