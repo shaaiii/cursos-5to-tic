@@ -30,8 +30,10 @@ ul {
   border-radius: 5px;
   background-color: #7d879b;
   padding-bottom: 4px;
-  margin-bottom: 2em;
   cursor: pointer;
+  width: 80%;
+  display: inline-block;
+  overflow-y: auto;
 
   &:hover {
     text-decoration: none;

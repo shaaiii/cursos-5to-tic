@@ -13,7 +13,7 @@ class Home extends React.Component {
     return (
       <header className="app-header">
 
-        <img id='logo-completo-anima' src={logoCompleto} alt='Logo Completo Anima'/>
+        <img id='logo-completo-anima' src={logoCompleto} alt='Logo Completo Anima' />
 
         <img src={logo} className="app-logo" alt="logo" />
         <p>
@@ -24,19 +24,26 @@ class Home extends React.Component {
 
         <div className='container'>
 
-          <div className='row justify-content-center mb-md-3 mb-lg-0'>
-            <div className='col-12 col-md-4 col-xl-3'>
+          <div className='row justify-content-center'>
+
+            <div className='col-12 col-md-6 col-xl-4 mb-2'>
+              <NavLink className='custom-nav-item-sytle text-truncate' activeClassName='active' to='/intro-des-web'>
+                Intro Desarrollo Web
+              </NavLink>
+            </div>
+
+            <div className='col-12 col-md-6 col-xl-4 my-2 mt-md-0'>
               <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/ss-oo'>
                 Sistemas Operativos 2
               </NavLink>
             </div>
-            <div className='col-12 col-md-4 col-xl-3 my-2 my-md-0'>
+            <div className='col-12 col-md-6 col-xl-4 my-2'>
               <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/des-web'>
                 Desarrollo Web
               </NavLink>
             </div>
 
-            <div className='col-12 col-md-4 col-xl-3 mb-3 mb-md-0'>
+            <div className='col-12 col-md-6 col-xl-4 mt-2 mb-5'>
               <NavLink className='custom-nav-item-sytle' activeClassName='active' to='/ss-oo-3/ssh'>
                 Sistemas Operativos 3
               </NavLink>

@@ -5,6 +5,11 @@ import './styles.scss'
 
 import Home from './components/Home';
 
+// Introduccion Desarrollo Web
+import {
+  IntroDesWeb
+} from './components/intro-des-web/IntroDesWeb';
+
 // Desarrollo Web
 import { 
   DesarrolloWeb, 
@@ -27,6 +32,9 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path='/' component={Home} />
+
+            {/* Intro Des Web */}
+            <Route exact path='/intro-des-web' component={IntroDesWeb} />
 
             {/* Desarrollo Web */}
             <Route exact path='/des-web' component={DesarrolloWeb} />
