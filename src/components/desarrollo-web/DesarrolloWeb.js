@@ -5,7 +5,6 @@ import BackButton from '../BackButton';
 import Clase2 from './Clase2';
 import Git from './Git';
 import BootstrapUtils from './BootstrapUtils';
-import Javascript from './javascript/Javascript';
 
 import logoAnima from '../../assets/logo_anima_completo_oscuro.svg'
 
@@ -44,6 +43,5 @@ export {
   DesarrolloWeb,
   Clase2,
   Git,
-  BootstrapUtils,
-  Javascript
+  BootstrapUtils
 }
