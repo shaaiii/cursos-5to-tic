@@ -1,0 +1,36 @@
+
+.functions-container {
+  background-color: #DDE7E5;
+  font-family: 'PT Sans', sans-serif;
+  height: auto;
+  text-align: left;
+  color: #2E4053;
+  padding: 0 4em;
+
+  h1 {
+    font-family: 'Cinzel', serif;
+    padding-top: 1em;
+  }
+  
+  h3 {
+    font-family: 'Pacifico', cursive;
+  }
+  
+  pre {
+    background-color: #2E4053;
+    color: #F8F9F9;
+    border-radius: 5px;
+  }
+  
+  .violet {
+    color: #C39BD3;
+  }
+  
+  .blue {
+    color: #2980B9;
+  }
+  
+  .watergreen {
+    color: #45B39D;
+  }
+}

@@ -7,7 +7,9 @@ import Home from './components/Home';
 
 // Introduccion Desarrollo Web
 import {
-  IntroDesWeb
+  IntroDesWeb,
+  Sections,
+  Functions
 } from './components/intro-des-web/IntroDesWeb';
 
 // Desarrollo Web
@@ -34,6 +36,8 @@ class App extends Component {
 
             {/* Intro Des Web */}
             <Route exact path='/intro-des-web' component={IntroDesWeb} />
+            <Route exact path='/intro-des-web/sections' component={Sections} />
+            <Route exact path='/intro-des-web/functions-es6' component={Functions} />
 
             {/* Desarrollo Web */}
             <Route exact path='/des-web' component={DesarrolloWeb} />

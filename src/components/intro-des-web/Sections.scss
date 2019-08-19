@@ -1,0 +1,51 @@
+@import '../../variables.scss';
+
+.seccion {
+  height: 100vh;
+  text-align: left;
+}
+.seccion-1 {
+  background-color: #229954;
+}
+.seccion-2 {
+  background-color: #F7DC6F;
+  color: #1A5276;
+  .border-img {
+    border-radius: 50%;
+    border: 2px solid #A9DFBF;
+  }
+  a {
+    color: #117A65;
+  }
+  h1 {
+    color: #E74C3C;
+  }
+}
+.seccion-3 {
+  background-color: #5499C7;
+}
+
+@media (max-width: map-get($container-max-widths, "sm")) {
+  .seccion {
+    code {
+      font-size: 1em;
+    }
+    h4 {
+      font-size: 1em;
+    }
+  }
+}
+@media (min-width: map-get($container-max-widths, "md")) {
+  .seccion {
+    code {
+      font-size: 1.5em;
+    }
+  }
+}
+@media (min-width: map-get($container-max-widths, "xl")) {
+  .seccion {
+    code {
+      font-size: 3em;
+    }
+  }
+}
